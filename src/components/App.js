@@ -24,8 +24,8 @@ function App() {
   //Get user and projects information. 
   useEffect(() => {
     if (token) {
-        getUserInfo(token)
-        getProjectInfo(token)
+      getUserInfo(token)
+      getProjectInfo(token)
     }
   }, [token])
 
@@ -39,7 +39,7 @@ function App() {
     }
   }, [token]);
 
-  
+
 
   const getUserInfo = async (token) => {
     try {
@@ -101,7 +101,6 @@ function App() {
               />} />
             }
           </Route>
-
         </Routes>
       </div>
     </CurrentUserContext.Provider>
