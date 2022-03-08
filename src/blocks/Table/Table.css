@@ -1,0 +1,44 @@
+Table.css {
+  gap: 10px;
+  padding: 1rem;
+  border: red 1px solid;
+}
+
+.table__header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight:bold;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-overflow:ellipsis; 
+  padding: 8px;
+  font-size: 14px;
+}
+
+th {
+  font-size: 24px;
+  text-align: left;
+  white-space:nowrap; 
+  overflow:hidden;
+  text-align: left;
+  background-color: rgb(117, 201, 250);
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+
+.red-theme {
+  background-color: red;
+}
+
+.green-theme {
+  background-color: green;
+}
+
+.blue-theme {
+  background-color: rgb(205, 235, 253);
+}
