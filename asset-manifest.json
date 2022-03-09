@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project-for-zigit/static/css/main.ad7a260c.css",
-    "main.js": "/project-for-zigit/static/js/main.57194e05.js",
+    "main.css": "/project-for-zigit/static/css/main.a5dee71c.css",
+    "main.js": "/project-for-zigit/static/js/main.0bf3da82.js",
     "static/js/787.6616f982.chunk.js": "/project-for-zigit/static/js/787.6616f982.chunk.js",
     "index.html": "/project-for-zigit/index.html",
-    "main.ad7a260c.css.map": "/project-for-zigit/static/css/main.ad7a260c.css.map",
-    "main.57194e05.js.map": "/project-for-zigit/static/js/main.57194e05.js.map",
+    "main.a5dee71c.css.map": "/project-for-zigit/static/css/main.a5dee71c.css.map",
+    "main.0bf3da82.js.map": "/project-for-zigit/static/js/main.0bf3da82.js.map",
     "787.6616f982.chunk.js.map": "/project-for-zigit/static/js/787.6616f982.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad7a260c.css",
-    "static/js/main.57194e05.js"
+    "static/css/main.a5dee71c.css",
+    "static/js/main.0bf3da82.js"
   ]
 }
