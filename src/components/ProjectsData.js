@@ -2,7 +2,6 @@ import React from "react";
 
 const ProjectsData = (props) => {
     const { id, name, score, durationInDays, bugsCount, madeDadeline } = props;
-    console.log(typeof(score))
     const redOrGreen = score > 90 ? "green-theme" : score < 70 ? "red-theme" : "blue-theme";
     return (
         <tbody>
