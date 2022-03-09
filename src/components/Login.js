@@ -6,10 +6,10 @@ const Login = (props) => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-
+    const [loading, setLoading] = useState(false)
     const validPassword = (newPassword) => {
         if (newPassword.search(/[A-Z]/i) < 0) {
-            alert("Your password must contain at least one letter.");
+            alert("Your password must contain at least one capital letter.");
             return false;
         }
         if (newPassword.search(/[0-9]/i) < 0) {
@@ -22,6 +22,7 @@ const Login = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (validPassword(password)) {
+            setLoading(true)
             handleLogin(email, password);
         }
     }
@@ -56,7 +57,10 @@ const Login = (props) => {
                     className='form__submit-btn'
                     type="submit"
                     aria-label="sumbit button"
-                >Submit</button>
+                >{ loading && <i className="fa fa-refresh fa-spin"></i> }
+                {  loading && <span>Loading</span> }
+                { !loading && <span>Submit</span> }
+                </button>
             </form>
         </div>
     )

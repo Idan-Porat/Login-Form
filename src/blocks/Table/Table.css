@@ -42,3 +42,18 @@ td {
 .blue-theme {
   background-color: rgb(205, 235, 253);
 }
+
+.logout-btn {
+  cursor:pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition:0.2s ease-in;
+  width: 240px;
+  height: 60px;
+  background-color: rgb(4, 151, 243);;
+  color: #ffffff;
+}
+
+.logout-btn:hover { 
+  opacity:0.8;
+}

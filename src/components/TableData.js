@@ -53,7 +53,7 @@ const TableData = (props) => {
                     })
                 }
             </table>
-            <button onClick={onLogOut}>logout</button>
+            <button className="logout-btn" onClick={onLogOut}>Logout</button>
         </div>
     )
 }
